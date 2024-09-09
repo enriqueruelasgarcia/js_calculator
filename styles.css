@@ -1,0 +1,53 @@
+.main {
+    margin: 0 auto;
+    width: 350px;
+    background-color: #0d4f73;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.main h1 {
+    color: white;
+}
+
+.main h2 {
+    border-radius: 10px;
+    height: 40px;
+    width: 100%;
+    text-align: right;
+    padding-right: 20px;
+    background-color: #000000;
+    color: white;
+    box-sizing: border-box;
+    margin-top: 20px;
+    line-height: 40px;
+}
+
+.calculator-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.btn {
+    height: 60px;
+    font-size: 1.5rem;
+}
+
+.btn-danger {
+    grid-column: span 2;
+}
+
+.btn-success {
+    grid-row: span 2;
+    height: auto;
+}
+
+#zero {
+    grid-column: span 2;
+}
+
+#equals {
+    height: 130px;
+}
